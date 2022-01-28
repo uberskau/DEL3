@@ -36,7 +36,6 @@ func main() {
 		} else if text == "rev" {
 			fmt.Println("--------------------------------------------------------")
 			fmt.Println(event.GetIn(text))
-			fmt.Println(event.GetIn(text))
 			fmt.Println(event.CrossRiver(text))
 			fmt.Println(event.PutOutBoat(text))
 			fmt.Println("")
@@ -44,7 +43,6 @@ func main() {
 			fmt.Println("--------------------------------------------------------")
 		} else if text == "korn" {
 			fmt.Println("--------------------------------------------------------")
-			fmt.Println(event.GetIn(text))
 			fmt.Println(event.GetIn(text))
 			fmt.Println(event.CrossRiver(text))
 			fmt.Println(event.PutOutBoat(text))
