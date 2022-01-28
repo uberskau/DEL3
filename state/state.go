@@ -6,14 +6,17 @@ func ViewState() string {
 	return state
 }
 
-func PutInBoat() {
+func PutInBoat() string {
 	state = "[rev korn --V--I(_hs_kylling_)__________________I--Ø--]"
+	return state
 }
 
-func CrossRiver() {
+func CrossRiver() string {
 	state = "[rev korn --V--I__________________(_hs_kylling_)I--Ø--]"
+	return state
 }
 
-func PutOutBoat() {
+func PutOutBoat() string {
 	state = "[rev korn --V--I__________________(_hs_)I--Ø-- kylling]"
+	return state
 }
